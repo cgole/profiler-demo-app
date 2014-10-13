@@ -1,0 +1,8 @@
+{
+  "testDI.js": [
+    { "type": "increment", "line": 7, "metric": "get.delay1" },
+    { "type": "decrement", "line": 8, "metric": "get.delay1" },
+    { "type": "timer-start", "line": 7, "metric": "get.delay1", "context": "res" },
+    { "type": "timer-stop", "line": 8, "metric": "get.delay1", "context": "res" }
+  ]
+}
